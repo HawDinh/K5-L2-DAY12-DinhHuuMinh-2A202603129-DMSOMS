@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ở bản RGB tối khó phân biệt dây trên thân người; ảnh IR-sim làm vùng thân dễ quan sát hơn",person.seatbelt,"RGB giữ unknown; IR-sim gán not_worn theo phần thân quan sát được, không copy thuộc tính chỉ vì cùng cảnh"
+S03_ir,IR_sim,"Màu túi không còn nhưng quai và đường viền túi vẫn quan sát được",object.type,"Giữ bag dựa vào hình dạng; không suy màu hay chất liệu từ mức xám"
+S06_ir,IR_sim,"Hoa văn mất thông tin màu nhưng lòng nôi và quai cong vẫn quan sát được",infant_seat,"Nhận lớp bằng cấu trúc nôi; facing dựa theo hướng xe"
+D04,real_IR,"Vùng mắt phải có độ rõ thấp và sát vùng tay/vật cầm; không phân biệt chắc trạng thái mắt",face.eye_right,"Giữ unknown; các mốc mắt phải đặt theo vị trí ước lượng có occluded, không đổi thành closed để lấp chỗ thiếu"
+D06,real_IR,"Có vùng phản xạ sáng trên vỏ chai; chai và bàn tay che vùng mũi miệng",face13,"Các mốc mũi và miệng không định vị được để outside; không lấy đốm sáng trên chai làm mốc mặt"
+D05,real_IR,"Ảnh NIR vẫn cho thấy kính nằm trong tay và mặt đang không đeo kính",face.glasses,"Gán none cho mặt; không gán clear chỉ vì có kính trong khung"
