@@ -11,3 +11,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+
+# Hướng dẫn làm bài cá nhân, chỉ giữ trên máy
+/HUONG_DAN_LAB12.md
+/_local_work/
