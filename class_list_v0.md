@@ -1,6 +1,6 @@
 # Danh sách lớp v0 — Đinh Hữu Minh · G10
 
-MSSV: 2A202603129. Bản nháp có hỗ trợ Codex, dùng các lớp và thuộc tính trong Guideline Cabin v1.0. Cần đối chiếu thêm slide 54 trước khi nộp; file slide chưa có trong tài nguyên local đã kiểm tra. Danh sách này không bổ sung nhãn mới vào project CVAT.
+MSSV: 2A202603129. Sử dụng các lớp và thuộc tính trong Guideline Cabin v1.0. Cần đối chiếu thêm slide 54 trước khi nộp; file slide chưa có trong tài nguyên local đã kiểm tra. Danh sách này không bổ sung nhãn mới vào project CVAT.
 
 ## DMS
 

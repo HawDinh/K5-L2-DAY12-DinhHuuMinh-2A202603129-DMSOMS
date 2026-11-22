@@ -2,4 +2,4 @@ File: export_final.zip
 Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=6, face=8, face13=4, hand=11, infant_seat=6, object=6, person=10, phone=2
 Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
 
-Phạm vi: theo yêu cầu người học, tạm bỏ qua cụm trẻ/ghế có trẻ ở S02, S03, S05, S07 trên cả RGB và IR; xem annotation_notes.md. 0 lỗi cấu trúc không xác nhận các vùng để lại đã có đủ nhãn.
+Phạm vi: theo yêu cầu người học, tạm bỏ qua cụm trẻ/ghế có trẻ ở S02, S03, S05, S07 trên cả RGB và IR trong bản đầu; xem self_review.md mục 4. 0 lỗi cấu trúc không xác nhận các vùng để lại đã có đủ nhãn.

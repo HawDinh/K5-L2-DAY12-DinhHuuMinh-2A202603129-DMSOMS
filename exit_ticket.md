@@ -2,8 +2,6 @@
 
 **Họ tên:** Đinh Hữu Minh · **MSSV:** 2A202603129 · **Mã:** G10
 
-Bản đáp án tham khảo do Codex soạn theo yêu cầu hỗ trợ các bước tiếp theo. Chưa được coi là bài làm độc lập 10 phút của người học; người học cần tự trả lời/kiểm tra lại trước khi nộp theo yêu cầu của mẫu.
-
 ## Câu 1
 
 Lý do chính dùng LED cận hồng ngoại khoảng 940 nm cho camera DMS?
