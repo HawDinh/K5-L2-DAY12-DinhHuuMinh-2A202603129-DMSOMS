@@ -33,4 +33,4 @@ Một góp ý đúng về bản Minh trước QC là thiếu infant_seat trên S
 - D01 và D03 không có face/face13 vì mắt và mũi không đủ rõ theo cách áp dụng GUIDE 4.5; bất đồng với Văn được ghi trong disagreement_log.csv. D04 eye_right=unknown và các mốc ước lượng có occluded; mũi/miệng bị che hoàn toàn ở D06 để outside.
 - check_cpA.txt và check_cpB.txt là lượt kiểm lại đúng phạm vi checkpoint trên bản export cuối, không phải snapshot tại hai thời điểm giữa buổi.
 - source="manual" được giữ trên các nhãn còn lại. Lượt sửa sau review chỉ xóa phone D03; mọi tọa độ, thuộc tính và cờ khác giữ nguyên.
-- ZIP/XML được sửa tại máy; nhãn trong CVAT chưa đồng bộ thay đổi xóa phone D03 ở lượt này. Cần dùng bản export đã sửa khi gửi review/nộp bài.
+- Đã đồng bộ xóa box phone nhầm console tại D03 trên CVAT ngày 22/11/2026: Save, tải lại trang và kiểm D03 chỉ còn person, hai hand và frame_meta. ZIP/XML hiện tại đã có cùng thay đổi này từ lượt sửa trước.
