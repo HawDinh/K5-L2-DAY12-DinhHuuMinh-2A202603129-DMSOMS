@@ -1,0 +1,15 @@
+# Khai báo dùng AI — DinhHuuMinh
+
+| # | Công cụ | Bạn hỏi gì (tóm tắt) | Bạn dùng kết quả thế nào | Bạn có kiểm lại không? Bằng gì? |
+|---|---|---|---|---|
+| 1 | OpenAI Codex, 21/11/2026 | Phân tích yêu cầu lab12, so sánh làm cá nhân với nhóm 2–4 để hoàn thành nhanh, kiểm tra tên repo và tài nguyên G10.zip, chuẩn bị hướng dẫn. | Soạn HUONG_DAN_LAB12.md với lộ trình 22 ảnh, lệnh checkpoint/review và danh sách bằng chứng; giải nén G10 tại máy. Không gửi ảnh cabin cho AI và không nhờ AI gán nhãn. | Codex đối chiếu RULES, GUIDE, CHECKPOINTS, SUBMISSION, RUBRIC và templates; kiểm tra danh sách ZIP, Git ignore, Python CLI và metadata phiên bản CVAT local. Người học cần tự đọc lại các nguồn trước khi làm và bổ sung việc kiểm tra của mình. |
+| 2 | OpenAI Codex, 21/11/2026 | Ignore hướng dẫn để không push nhầm và đổi tên repo theo quy ước. | Thêm HUONG_DAN_LAB12.md vào .gitignore; đổi tên repo GitHub và cập nhật origin. | Kiểm tra git check-ignore, git remote -v và tên repo GitHub. |
+ |
+
+| 3 | OpenAI Codex, 21/11/2026 | Người học đã tự sửa mốc mắt/mũi và bổ sung ghế, yêu cầu lưu lại và làm bước tiếp theo; muốn thêm tên vào ZIP gửi Văn. | Save và export lại qua CVAT; QC các seat mặc định, hướng nôi và cờ mắt phải D04; bổ sung nôi S03 RGB; giữ các tọa độ mắt/mũi người học đã sửa. Soạn ir_log, class_list_v0, self_review theo phản hồi người học và đáp án tham khảo exit_ticket; tạo bản sao ZIP có họ tên/MSSV/G10 để gửi bạn review. | cabin_check trên bản mới: 22 ảnh, 22 frame_meta, 0 ERROR, 0 WARN; ZIP chỉ có XML. So sánh bản người học với bản sau QC để kiểm tra các sửa chữa được giữ lại. Chưa nhận bài của Văn để làm E3. |
+
+| 4 | OpenAI Codex, 22/11/2026 | Nhận file của Văn, chỉ review bản mới hơn trong gói nộp Trần Anh Văn. | Chọn export_final_v2.zip của Văn, giữ bản cũ ngoài bộ nộp; chạy check/diff với bản Minh hiện tại, soát ảnh trên CVAT và soạn 47 dòng luật/action theo mine=Minh, peer=Văn. | Hai bản v2 đều đủ 22 ảnh, 0 ERROR/0 WARN. CSV mới có 18 đề xuất giữ mine và 29 ambiguous cần hai người/coach phân xử; không tự coi lời ghi đồng thuận trong file nhận được là xác nhận của người học. Chưa đổi nhãn theo các ca chưa thống nhất. |
+
+| 5 | OpenAI Codex, 22/11/2026 | Đối chiếu bản review Antigravity, bỏ ghi chú hỗ trợ lặp lại trong báo cáo, sửa nhãn sai và chuẩn bị bàn giao cho Văn. | Xóa đúng một box phone D03 nhầm console trong ZIP/XML; giữ các nhãn khác. Cập nhật log 47 dòng lịch sử, bản gửi peer và gói nộp. Bỏ ghi chú lặp lại ở exit_ticket, class_list_v0, self_review và TEAM, giữ khai báo tại đây. | Xem ảnh và GUIDE 4.2/4.7; so sánh XML bảo đảm chỉ mất box đó, chạy cabin_check 22 ảnh; không coi nhận định của bản review là đồng thuận hai người. Bản bàn giao chưa được gửi tự động. |
+
+Đã tham khảo hướng dẫn do công cụ chuẩn bị, sau đó tự làm lại và kiểm tra câu trả lời
